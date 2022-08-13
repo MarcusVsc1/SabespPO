@@ -58,7 +58,6 @@ public class CplexProcessor {
         Arrays.asList(matrizModelo).forEach(variavel -> {
             try {
                 variaveis.add(cplex.intVar(0, Integer.MAX_VALUE, variavel));
-                System.out.print(variavel + " ");
             } catch (IloException e) {
                 System.out.println(e.getMessage());
             }
