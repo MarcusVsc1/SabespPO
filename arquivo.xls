@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes"?>
+<CPLEXSolution version="1.2">
+ <header
+   problemName="ilog.cplex"
+   objectiveValue="0.65999999999999992"
+   solutionTypeValue="1"
+   solutionTypeString="basic"
+   solutionStatusValue="1"
+   solutionStatusString="optimal"
+   solutionMethodString="dual"
+   primalFeasible="1"
+   dualFeasible="1"
+   simplexIterations="2"
+   writeLevel="1"/>
+ <quality
+   epRHS="9.9999999999999995e-07"
+   epOpt="9.9999999999999995e-07"
+   maxPrimalInfeas="0"
+   maxDualInfeas="0"
+   maxPrimalResidual="0"
+   maxDualResidual="1.0408340855860843e-17"
+   maxX="3"
+   maxPi="0.0017500000000000003"
+   maxSlack="12"
+   maxRedCost="0"
+   kappa="9.0858695652173918"/>
+ <linearConstraints>
+  <constraint index="0" status="LL" slack="0" dual="0.0017500000000000003"/>
+  <constraint index="1" status="BS" slack="-12" dual="-0"/>
+  <constraint index="2" status="LL" slack="0" dual="0.0014999999999999996"/>
+ </linearConstraints>
+ <variables>
+  <variable name="x1" index="0" status="BS" value="3" reducedCost="0"/>
+  <variable name="x2" index="1" status="BS" value="2" reducedCost="0"/>
+ </variables>
+ <objectiveValues>
+  <objective index="0" name="" value="0.65999999999999992"/>
+ </objectiveValues>
+</CPLEXSolution>
